@@ -100,6 +100,7 @@ export const Input:React.FC <IPropsType> = (
   return (
     <div className="input">
       <TextInput
+        inputClassName={name === 'fullName' ? 'input__upper': ''}
         id={name}
         value={value}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) => onHandleChange(e.target.value)}

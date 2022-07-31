@@ -11,3 +11,6 @@
     padding-bottom: 10px;
     display: inline-block;
 }
+.input__upper {
+    text-transform: uppercase;
+}

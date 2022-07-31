@@ -87,7 +87,7 @@ const Form: React.FC = () => {
             value={form.fullName}
             onChange={handleChange}
             name="fullName"
-            placeholder="Имя Фамилия"
+            placeholder="JON SNOW"
             icon={<Icon className="material-icons prefix">account_circle</Icon>}
             onValidation={(value) => onSetErrors('fullName', validationName(value))}
             error={error?.fullName}
@@ -98,7 +98,7 @@ const Form: React.FC = () => {
             onChange={handleChange}
             name="mail"
             type="email"
-            placeholder="Почта"
+            placeholder="email@example.com"
             icon={<Icon className="material-icons prefix">email</Icon>}
             onValidation={(value) => onSetErrors('mail', validationMail(value))}
             error={error?.mail}
