@@ -1,0 +1,13 @@
+.input__datepick {
+    display: flex;
+    align-items: center;
+}
+.input__wrapper-date {
+    width: 100%;
+    margin-left: 20px;
+}
+.input__error-message {
+    margin-left: 45px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
